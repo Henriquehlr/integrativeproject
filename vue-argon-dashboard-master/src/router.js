@@ -27,17 +27,17 @@ export default new Router({
         },
         {
           path: '/profile',
-          name: 'profile',
+          name: 'Usuário',
           component: () => import(/* webpackChunkName: "demo" */ './views/UserProfile.vue')
         },
         {
           path: '/maps',
-          name: 'maps',
+          name: 'Mapas',
           component: () => import(/* webpackChunkName: "demo" */ './views/Maps.vue')
         },
         {
           path: '/tables',
-          name: 'tables',
+          name: 'Máquinario',
           component: () => import(/* webpackChunkName: "demo" */ './views/Tables.vue')
         }
       ]

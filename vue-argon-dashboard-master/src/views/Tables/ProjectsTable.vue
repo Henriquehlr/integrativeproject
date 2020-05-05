@@ -9,9 +9,6 @@
             {{title}}
           </h3>
         </div>
-        <div class="col text-right">
-          <base-button type="primary" size="sm">See all</base-button>
-        </div>
       </div>
     </div>
 
@@ -22,12 +19,12 @@
                   tbody-classes="list"
                   :data="tableData">
         <template slot="columns">
-          <th>Project</th>
-          <th>Budget</th>
-          <th>Status</th>
-          <th>Users</th>
-          <th>Completion</th>
-          <th></th>
+          <th>Máquina</th>
+          <th>Cultivo</th>
+          <th>Área Colhida</th>
+          <th>Usúarios Máquina</th>
+          <th>Progresso</th>
+          <th>Outras Opções</th>
         </template>
 
         <template slot-scope="{row}">
@@ -87,9 +84,8 @@
               </a>
 
               <template>
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Data Inicial Plantio: 10/02/2020</a>
+                <a class="dropdown-item" href="#">Data Final Colheita: 10/12/2020</a>
               </template>
             </base-dropdown>
           </td>
@@ -119,44 +115,44 @@
       return {
         tableData: [
           {
-            img: 'img/theme/bootstrap.jpg',
-            title: 'Argon Design System',
-            budget: '$2500 USD',
-            status: 'pending',
+            img: 'img/theme/MAQ1.png',
+            title: 'CH570',
+            budget: 'Cana de Açucar',
+            status: '21,62 ha',
             statusType: 'warning',
             completion: 60
           },
           {
-            img: 'img/theme/angular.jpg',
-            title: 'Angular Now UI Kit PRO',
-            budget: '$1800 USD',
-            status: 'completed',
+            img: 'img/theme/MAQ2.png',
+            title: 'CH670',
+            budget: 'Cana de Açucar',
+            status: '21,62 ha',
             statusType: 'success',
             completion: 100
           },
           {
-            img: 'img/theme/sketch.jpg',
-            title: 'Black Dashboard',
-            budget: '$3150 USD',
-            status: 'delayed',
+            img: 'img/theme/MAQ1.png',
+            title: 'CH570',
+            budget: 'Cana de Açucar',
+            status: '681,000 ha',
             statusType: 'danger',
             completion: 72
           },
           {
-            img: 'img/theme/react.jpg',
-            title: 'React Material Dashboard',
-            budget: '$4400 USD',
-            status: 'on schedule',
+            img: 'img/theme/MAQ2.png',
+            title: 'CH670',
+            budget: 'Cana de Açucar',
+            status: '21,62 ha ',
             statusType: 'info',
             completion: 90
           },
           {
-            img: 'img/theme/vue.jpg',
-            title: 'Vue Paper UI Kit PRO',
-            budget: '$2200 USD',
-            status: 'completed',
+            img: 'img/theme/MAQ1.png',
+            title: 'CH570',
+            budget: 'Cana de Açucar',
+            status: '681,000 ha',
             statusType: 'success',
-            completion: 100
+            completion: 100,
           }
         ]
       }

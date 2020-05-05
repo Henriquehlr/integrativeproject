@@ -5,7 +5,7 @@
               expand>
         <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
             <div class="form-group mb-0">
-                <base-input placeholder="Search"
+                <base-input placeholder="Buscar"
                             class="input-group-alternative"
                             alternative=""
                             addon-right-icon="fas fa-search">
@@ -17,16 +17,16 @@
                 <base-dropdown class="nav-link pr-0">
                     <div class="media align-items-center" slot="title">
                 <span class="avatar avatar-sm rounded-circle">
-                  <img alt="Image placeholder" src="img/theme/team-4-800x800.jpg">
+                  <img alt="Image placeholder" src="img/theme/img.png">
                 </span>
                         <div class="media-body ml-2 d-none d-lg-block">
-                            <span class="mb-0 text-sm  font-weight-bold">Jessica Jones</span>
+                            <span class="mb-0 text-sm  font-weight-bold">Sandro Matias</span>
                         </div>
                     </div>
 
                     <template>
                         <div class=" dropdown-header noti-title">
-                            <h6 class="text-overflow m-0">Welcome!</h6>
+                            <h6 class="text-overflow m-0">BEM VINDO!</h6>
                         </div>
                         <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-single-02"></i>
