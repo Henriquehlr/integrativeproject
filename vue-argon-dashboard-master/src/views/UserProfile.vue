@@ -5,7 +5,7 @@
       style="min-height: 600px; background-image: url(img/theme/profile-cover.jpg); background-size: cover; background-position: center top;"
     >
       <!-- Mask -->
-      <span class="mask bg-gradient-success opacity-8"></span>
+      <span class="mask bg-gradient-success opacity-4"></span>
       <!-- Header container -->
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
@@ -199,6 +199,7 @@
         </div>
       </div>
     </div>
+    <br/><br/><br/><br/><br/><br/>
   </div>
 </template>
 <script>

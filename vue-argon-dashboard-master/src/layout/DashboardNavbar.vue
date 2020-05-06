@@ -30,24 +30,24 @@
                         </div>
                         <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-single-02"></i>
-                            <span>My profile</span>
+                            <span>Meu Perfil</span>
                         </router-link>
                         <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-settings-gear-65"></i>
-                            <span>Settings</span>
+                            <span>Configurações</span>
                         </router-link>
                         <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-calendar-grid-58"></i>
-                            <span>Activity</span>
+                            <span>Atividade</span>
                         </router-link>
                         <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-support-16"></i>
-                            <span>Support</span>
+                            <span>Suporte</span>
                         </router-link>
                         <div class="dropdown-divider"></div>
                         <router-link to="/profile" class="dropdown-item">
                             <i class="ni ni-user-run"></i>
-                            <span>Logout</span>
+                            <span>Sair</span>
                         </router-link>
                     </template>
                 </base-dropdown>

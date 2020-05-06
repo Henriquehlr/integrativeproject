@@ -1,6 +1,10 @@
 <template>
   <div>
-    <base-header type="gradient-success" class="pb-6 pb-8 pt-5 pt-md-8">
+    <base-header
+      class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center"
+      style="min-height: 600px; background-image: url(img/theme/profile-cover.jpg); background-size: cover; background-position: center top;"
+    >
+    <span class="mask bg-gradient-success opacity-4"></span>
       <div class="row">
         <div class="col-xl-3 col-lg-6">
           <stats-card
@@ -141,6 +145,7 @@
       </div>
       <!--End tables-->
     </div>
+    <br/><br/><br/><br/><br/><br/>
   </div>
 </template>
 <script>
